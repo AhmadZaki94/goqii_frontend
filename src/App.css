@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.deleteIcon:hover{
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.editIcon:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+
+#cu_btn{
+  margin: 0px 0px 25px 25px;
+  display: flex;
+  justify-content: flex-start;
+}
